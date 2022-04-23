@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
     <TextView
         android:id="@+id/tx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello ,hear will be resalt"
+        android:text="Here will be result"
         android:textColor="#9C27B0"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,10 +24,25 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="120dp"
         android:onClick="onclick"
-        android:text="RESALT"
+        android:text="The Batton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="If you push the batton,You will see sum digital from 1 to 100"
+        android:textColor="#0A2DF3"
+        android:textColorHint="#0927CF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tx"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
