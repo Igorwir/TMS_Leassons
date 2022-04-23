@@ -1,4 +1,4 @@
-package com.example.tms_leassons
+package com.example.tms_leassons.DZ14
 
 
  class User(val name: String, val secondName: String, val age: Int) {
