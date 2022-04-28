@@ -1,8 +1,6 @@
 package com.example.tms_leassons.DZ16
 
 import java.util.*
-import kotlin.random.Random
-
 //Написать программу определения оценки студента по его рейтингу, на основе следующих правил:
 //рейтинг Оценка
 var s = Scanner(System.`in`)
