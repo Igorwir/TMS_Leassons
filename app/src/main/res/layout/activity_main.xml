@@ -4,56 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DZ16.MainActivityDz16">
-
-    <TextView
-        android:id="@+id/tx"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/here_will_be_result"
-        android:textColor="#9C27B0"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:background="#DAEDDA"
+    tools:context=".DZ17.MainActivity">
 
     <Button
-        android:id="@+id/buttonRez"
-        android:layout_width="wrap_content"
+        android:id="@+id/btStartTime"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
-        android:onClick="onclick"
-        android:text="@string/result"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="104dp"
+        android:text="@string/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="UsingOnClickInXml" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textViewInfo"
+        android:id="@+id/tvDisplayCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="2 random numbers, + or * depending on a = Even or not"
-        android:textColor="#0A2DF3"
-        android:textColorHint="#0927CF"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/tx"
+        android:layout_marginTop="180dp"
+        android:background="#FFC107"
+        android:backgroundTint="#DAE85A"
+        android:text="0000"
+        android:textColor="#070707"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/pokaz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/tx"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewInfo" />
+    <ImageView
+        android:id="@+id/drawTimer"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/stopwatch"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="224dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

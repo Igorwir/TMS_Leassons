@@ -10,6 +10,9 @@ fun main() {
         val dig = integer % 10
         sum += dig
         integer /= 10
+
     }
     println(sum)
+
 }
+
