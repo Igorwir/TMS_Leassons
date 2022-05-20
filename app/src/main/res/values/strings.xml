@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TMS_Leassons</string>
+    <string name="the_batton">The Batton</string>
+    <string name="enter_2_numbers_if_you_enter_the_first_even_digit_you_will_have_betwen_numbers_if_not">Enter 2 numbers,if you enter the first Even digit,you will have \'*\' betwen numbers,if not \'+\'</string>
+    <string name="here_will_be_result">Here will be result</string>
+    <string name="result">Result</string>
 </resources>
